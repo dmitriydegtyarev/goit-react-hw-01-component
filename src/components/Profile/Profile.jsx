@@ -3,7 +3,7 @@ import css from 'components/Profile/Profile.module.css';
 
 export const Profile = ({ name, tag, location, avatar, stats }) => {
   return (
-    <div className={css.container}>
+    <section className={css.container}>
       <div className="description">
         <img src={avatar} alt="Аватар пользователя" className="avatar" />
         <p className="name">{name}</p>
@@ -25,7 +25,7 @@ export const Profile = ({ name, tag, location, avatar, stats }) => {
           <span className="quantity">{stats.likes}</span>
         </li>
       </ul>
-    </div>
+    </section>
   );
 };
 
