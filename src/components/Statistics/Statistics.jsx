@@ -1,5 +1,5 @@
 import { StatisticsList } from 'components/StatisticsList/StatisticsList';
-import statisticData from '../../data/statisticalData.json';
+import statisticData from 'data/statisticalData.json';
 
 export const Statistics = () => {
   return (

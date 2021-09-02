@@ -1,6 +1,8 @@
 import { Profile } from 'components/Profile/Profile';
 import { Statistics } from 'components/Statistics/Statistics';
 import { Friend } from 'components/Friend/Friend';
+import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
+
 import user from 'data/user.json';
 
 export const App = () => {
@@ -15,6 +17,7 @@ export const App = () => {
       />
       <Statistics />
       <Friend />
+      <TransactionHistory />
     </>
   );
 };
