@@ -4,8 +4,8 @@ import { FriendList } from 'components/FriendList/FriendList';
 
 export const Friend = () => {
   return (
-    <>
+    <section>
       <FriendList friends={friends} />
-    </>
+    </section>
   );
 };

@@ -4,15 +4,17 @@ import transactions from 'data/transactions.json';
 
 export const TransactionHistory = () => {
   return (
-    <table className="transaction-history">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
-        </tr>
-      </thead>
-      <TransactionHistoryList items={transactions} />
-    </table>
+    <section>
+      <table className="transaction-history">
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Currency</th>
+          </tr>
+        </thead>
+        <TransactionHistoryList items={transactions} />
+      </table>
+    </section>
   );
 };
