@@ -1,25 +1,67 @@
-.stats {
-  display: flex;
-  margin: 0 auto;
-  max-width: 450px;
+.profile {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .description {
+  max-width: 320px;
   margin: 0 auto;
-  max-width: 450px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #fff;
 }
 
 .avatar {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
   border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.tag {
+  text-align: center;
+  margin-bottom: 10px;
+  color: lightslategray;
+}
+
+.location {
+  text-align: center;
+  color: lightslategray;
+}
+
+.stats {
+  display: flex;
+  max-width: 320px;
+  margin: 0 auto;
+  border: 1px solid lightslategray;
+}
+
+.item {
+  flex-basis: calc(100% / 3);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(236, 236, 236);
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid lightslategray;
 }
 
 .label {
   display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  color: lightslategray;
 }
 
-.item {
-  width: 150px;
-  border: 1px solid;
+.quantity {
+  display: block;
+  text-align: center;
+  font-weight: bold;
 }
