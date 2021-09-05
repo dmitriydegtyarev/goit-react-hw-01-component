@@ -2,10 +2,12 @@ import { TransactionHistoryList } from 'components/TransactionHistoryList/Transa
 
 import transactions from 'data/transactions.json';
 
+import css from 'components/TransactionHistory/TransactionHistory.module.css';
+
 export const TransactionHistory = () => {
   return (
-    <section>
-      <table className="transaction-history">
+    <section className={css.transactionsSection}>
+      <table className={css.transactionHistory}>
         <thead>
           <tr>
             <th>Type</th>

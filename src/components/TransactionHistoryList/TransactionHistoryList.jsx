@@ -2,12 +2,14 @@ import PropTypes from 'prop-types';
 
 import { TransactionHistoryItem } from 'components/TransactionHistoryItem/TransactionHistoryItem';
 
+import css from 'components/TransactionHistoryList/TransactionHistoryList.module.css';
+
 export const TransactionHistoryList = ({ items }) => {
   return (
     <>
       <tbody>
         {items.map(item => (
-          <tr key={item.id}>
+          <tr key={item.id} className={css.transactionItem}>
             <TransactionHistoryItem
               type={item.type}
               amount={item.amount}

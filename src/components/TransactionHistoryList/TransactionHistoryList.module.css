@@ -1,0 +1,12 @@
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+.transactionItem:nth-child(odd) {
+  background: white;
+}
+
+.transactionItem:nth-child(even) {
+  background: #e8e6d1;
+}
