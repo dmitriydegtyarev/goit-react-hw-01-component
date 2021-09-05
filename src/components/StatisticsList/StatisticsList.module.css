@@ -1,0 +1,9 @@
+.statList {
+  display: flex;
+}
+
+.item {
+  flex-basis: calc(100% / 4);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
