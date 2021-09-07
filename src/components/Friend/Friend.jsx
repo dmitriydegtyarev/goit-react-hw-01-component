@@ -1,6 +1,6 @@
 import friends from 'data/friends.json';
 
-import { FriendList } from 'components/FriendList/FriendList';
+import { FriendList } from 'components/Friend/FriendList';
 
 import css from 'components/Friend/Friend.module.css';
 

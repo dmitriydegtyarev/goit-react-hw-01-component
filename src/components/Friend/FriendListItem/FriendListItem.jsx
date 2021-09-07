@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import css from 'components/FriendListItem/FriendListItem.module.css';
+import css from 'components/Friend/FriendListItem/FriendListItem.module.css';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   const nameOfClass = isOnline ? `${css.online}` : `${css.offline}`;

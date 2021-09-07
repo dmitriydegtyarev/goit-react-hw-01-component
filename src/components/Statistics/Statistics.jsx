@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import { StatisticsList } from 'components/StatisticsList/StatisticsList';
+import { StatisticsList } from 'components/Statistics/StatisticsList';
 import statisticData from 'data/statisticalData.json';
 
 import css from 'components/Statistics/Statistics.module.css';

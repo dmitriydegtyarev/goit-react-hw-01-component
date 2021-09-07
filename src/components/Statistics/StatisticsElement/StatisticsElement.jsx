@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import css from 'components/StatisticsElement/StatisticsElement.module.css';
+import css from 'components/Statistics/StatisticsElement/StatisticsElement.module.css';
 
 export const StatisticsElement = ({ label, percentage }) => {
   return (

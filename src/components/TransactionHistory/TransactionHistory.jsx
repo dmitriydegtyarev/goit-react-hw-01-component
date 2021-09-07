@@ -1,4 +1,4 @@
-import { TransactionHistoryList } from 'components/TransactionHistoryList/TransactionHistoryList';
+import { TransactionHistoryList } from 'components/TransactionHistory/TransactionHistoryList';
 
 import transactions from 'data/transactions.json';
 

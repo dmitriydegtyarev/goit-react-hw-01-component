@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 
-import { StatisticsElement } from 'components/StatisticsElement/StatisticsElement';
+import { StatisticsElement } from 'components/Statistics/StatisticsElement';
 import { generateRandomColor } from 'utils/generateRandomColor';
 
-import css from 'components/StatisticsList/StatisticsList.module.css';
+import css from 'components/Statistics/StatisticsList/StatisticsList.module.css';
 
 export const StatisticsList = ({ statisticData }) => {
   return (
